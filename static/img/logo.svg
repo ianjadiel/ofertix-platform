@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Fondo circular -->
+  <circle cx="250" cy="250" r="150" fill="#1a237e"/>
+  
+  <!-- Bolsa de compras -->
+  <path d="M180,150 L320,150 L350,350 L150,350 Z" fill="#ffa726" stroke="#ffa726" stroke-width="2">
+    <animate attributeName="fill" values="#ffa726;#ff5722;#ffa726" dur="5s" repeatCount="indefinite"/>
+  </path>
+  
+  <!-- Asas de la bolsa -->
+  <path d="M200,150 Q200,100 230,100 Q260,100 260,150" fill="none" stroke="#ffa726" stroke-width="10" stroke-linecap="round"/>
+  <path d="M240,150 Q240,100 270,100 Q300,100 300,150" fill="none" stroke="#ffa726" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Detalles de la bolsa -->
+  <circle cx="210" cy="170" r="8" fill="#e91e63"/>
+  <circle cx="290" cy="170" r="8" fill="#e91e63"/>
+  
+  <!-- Órbita alrededor de la bolsa -->
+  <ellipse cx="250" cy="250" rx="180" ry="60" fill="none" stroke="#ffc107" stroke-width="6" transform="rotate(30, 250, 250)"/>
+  
+  <!-- Texto OFERTYX -->
+  <text x="250" y="420" font-family="Arial Black, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="#1a237e">OFERTYX</text>
+  
+  <!-- Eslogan -->
+  <text x="250" y="450" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#1a237e">LO QUE BUSCAS EN UN SOLO LUGAR</text>
+</svg>

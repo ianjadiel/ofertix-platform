@@ -1,0 +1,221 @@
+/* Estilos personalizados para Ofertix */
+
+/* Estilos generales */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}  
+
+/* Estilos para el logo */
+.navbar-brand img {
+    transition: transform 0.3s ease;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1);
+}
+
+header img {
+    filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.1));
+    transition: transform 0.5s ease;
+}
+
+header img:hover {
+    transform: rotate(5deg) scale(1.05);
+}
+
+/* Estilos para el navbar */
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+/* Estilos para el hero section */
+header.bg-light {
+    background-color: #f8f9fa;
+    background-image: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    padding: 3rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+/* Estilos para el buscador */
+#search-input:focus {
+    box-shadow: none;
+    border-color: #0d6efd;
+}
+
+/* Estilos para las tarjetas de productos */
+.product-card {
+    transition: all 0.3s ease;
+    height: 100%;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-image-container {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.product-image {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+.product-badge {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #dc3545;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.product-source {
+    font-size: 0.8rem;
+    color: #6c757d;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #0d6efd;
+    font-size: 1.2rem;
+}
+
+.product-original-price {
+    text-decoration: line-through;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.product-savings {
+    color: #28a745;
+    font-weight: bold;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+.product-shipping {
+    font-size: 0.85rem;
+    color: #495057;
+}
+
+.product-delivery {
+    font-size: 0.8rem;
+}
+
+/* Estilos para el spinner de carga */
+#loading-spinner {
+    margin: 2rem 0;
+}
+
+/* Estilos para los modales */
+.modal-product-image {
+    max-width: 100%;
+    max-height: 150px;
+    object-fit: contain;
+}
+
+.product-detail-image {
+    max-height: 300px;
+    object-fit: contain;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+#productDetailsModal .card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+#productDetailsModal .card-header {
+    padding: 10px 15px;
+}
+
+#orderConfirmationModal .display-1 {
+    color: #28a745;
+}
+
+#orderConfirmationModal .card {
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Estilos para botones de acción */
+.view-details-btn:hover {
+    background-color: #f8f9fa;
+}
+
+.buy-now {
+    transition: all 0.3s ease;
+}
+
+.buy-now:hover {
+    transform: scale(1.05);
+}
+
+/* Estilos para el footer */
+footer {
+    margin-top: 2rem;
+    background-color: #212529;
+    background-image: linear-gradient(to bottom, #343a40, #212529);
+}
+
+footer img {
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+footer .list-unstyled li {
+    margin-bottom: 0.5rem;
+}
+
+footer .list-unstyled a {
+    transition: color 0.3s ease, padding-left 0.3s ease;
+    text-decoration: none;
+}
+
+footer .list-unstyled a:hover {
+    color: white !important;
+    padding-left: 5px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .product-image-container {
+        height: 150px;
+    }
+}

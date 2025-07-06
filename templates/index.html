@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ofertix - Encuentra las Mejores Ofertas</title>
+    
+    <!-- Meta tags para SEO -->
+    <meta name="description" content="Encuentra las mejores ofertas en productos de tecnología, hogar y más. Compara precios entre múltiples tiendas.">
+    <meta name="keywords" content="ofertas, descuentos, productos, tecnología, comparador precios">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="{{ url_for('static', filename='img/logo.svg') }}">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Remix Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Tailwind Config -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        'inter': ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            200: '#bfdbfe',
+                            300: '#93c5fd',
+                            400: '#60a5fa',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            700: '#1d4ed8',
+                            800: '#1e40af',
+                            900: '#1e3a8a',
+                        },
+                        secondary: {
+                            50: '#fdf4ff',
+                            100: '#fae8ff',
+                            200: '#f5d0fe',
+                            300: '#f0abfc',
+                            400: '#e879f9',
+                            500: '#d946ef',
+                            600: '#c026d3',
+                            700: '#a21caf',
+                            800: '#86198f',
+                            900: '#701a75',
+                        }
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in-out',
+                        'slide-up': 'slideUp 0.3s ease-out',
+                        'bounce-gentle': 'bounceGentle 2s infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        bounceGentle: {
+                            '0%, 20%, 50%, 80%, 100%': { transform: 'translateY(0)' },
+                            '40%': { transform: 'translateY(-10px)' },
+                            '60%': { transform: 'translateY(-5px)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        
+        .line-clamp-2 {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .line-clamp-3 {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .glass-effect {
+            background: rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+        }
+        
+        .favorite-btn.favorited {
+            background: #ef4444;
+            color: white;
+        }
+        
+        .cart-counter, .favorites-counter {
+            min-width: 20px;
+            height: 20px;
+            font-size: 12px;
+        }
+        
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-gray-50 font-inter">
+    <!-- Header -->
+    <header class="bg-white shadow-lg sticky top-0 z-40">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-3">
+                    <div class="w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center">
+                        <i class="ri-shopping-bag-line text-white text-xl"></i>
+                    </div>
+                    <h1 class="text-2xl font-bold gradient-text">Ofertix</h1>
+                </div>
+                
+                <!-- Navigation Desktop -->
+                <nav class="hidden md:flex items-center space-x-8">
+                    <a href="#" class="text-gray-700 hover:text-primary-600 font-medium transition-colors">Inicio</a>
+                    <a href="#" class="text-gray-700 hover:text-primary-600 font-medium transition-colors">Categorías</a>
+                    <a href="#" class="text-gray-700 hover:text-primary-600 font-medium transition-colors">Ofertas</a>
+                    <a href="#" class="text-gray-700 hover:text-primary-600 font-medium transition-colors">Ayuda</a>
+                </nav>
+                
+                <!-- Language Selector -->
+                <div class="hidden md:flex items-center space-x-4">
+                    <select class="bg-gray-100 border-0 rounded-lg px-3 py-2 text-sm focus:ring-2 focus:ring-primary-500">
+                        <option value="es">🇪🇸 ES</option>
+                        <option value="en">🇺🇸 EN</option>
+                        <option value="fr">🇫🇷 FR</option>
+                    </select>
+                </div>
+                
+                <!-- Action Buttons -->
+                <div class="flex items-center space-x-4">
+                    <!-- Favorites -->
+                    <button onclick="favoritesManager.showFavorites()" class="relative p-2 text-gray-600 hover:text-red-500 transition-colors">
+                        <i class="ri-heart-line text-xl"></i>
+                        <span class="favorites-counter absolute -top-1 -right-1 bg-red-500 text-white rounded-full text-xs px-1.5 py-0.5 hidden">0</span>
+                    </button>
+                    
+                    <!-- Cart -->
+                    <button onclick="cart.showCart()" class="relative p-2 text-gray-600 hover:text-primary-600 transition-colors">
+                        <i class="ri-shopping-cart-line text-xl"></i>
+                        <span class="cart-counter absolute -top-1 -right-1 bg-primary-500 text-white rounded-full text-xs px-1.5 py-0.5 hidden">0</span>
+                    </button>
+                    
+                    <!-- User Menu -->
+                    <button class="p-2 text-gray-600 hover:text-primary-600 transition-colors">
+                        <i class="ri-user-line text-xl"></i>
+                    </button>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button class="md:hidden p-2 text-gray-600 hover:text-primary-600 transition-colors">
+                        <i class="ri-menu-line text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="bg-gradient-to-br from-primary-600 via-primary-700 to-secondary-600 py-20 relative overflow-hidden">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-10 left-10 w-20 h-20 bg-white rounded-full animate-bounce-gentle"></div>
+            <div class="absolute top-32 right-20 w-16 h-16 bg-white rounded-full animate-bounce-gentle" style="animation-delay: 0.5s;"></div>
+            <div class="absolute bottom-20 left-1/4 w-12 h-12 bg-white rounded-full animate-bounce-gentle" style="animation-delay: 1s;"></div>
+        </div>
+        
+        <div class="container mx-auto px-4 text-center text-white relative z-10">
+            <h2 class="hero-title text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
+                Encuentra las <span class="text-yellow-300">mejores ofertas</span>
+            </h2>
+            <p class="text-xl md:text-2xl mb-8 opacity-90 animate-slide-up">Busca y compara productos en múltiples tiendas al mejor precio</p>
+            
+            <!-- Search Bar -->
+            <div class="max-w-3xl mx-auto animate-slide-up" style="animation-delay: 0.2s;">
+                <div class="flex flex-col md:flex-row bg-white rounded-2xl p-2 shadow-2xl">
+                    <input 
+                        type="text" 
+                        id="search-input" 
+                        class="flex-1 px-6 py-4 text-gray-800 rounded-xl md:rounded-r-none text-lg focus:outline-none focus:ring-2 focus:ring-primary-500"
+                        placeholder="¿Qué producto estás buscando? (ej: iPhone, MacBook, Samsung...)"
+                    >
+                    <button 
+                        id="search-button" 
+                        class="bg-gradient-to-r from-orange-500 to-red-500 hover:from-orange-600 hover:to-red-600 text-white px-8 py-4 rounded-xl md:rounded-l-none font-bold transition-all duration-300 transform hover:scale-105 shadow-lg"
+                    >
+                        <i class="ri-search-line mr-2"></i>Buscar Ofertas
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Quick Actions -->
+            <div class="mt-8 flex flex-wrap justify-center gap-4 animate-slide-up" style="animation-delay: 0.4s;">
+                <button id="how-it-works-btn" class="glass-effect text-white px-6 py-3 rounded-full hover:bg-white hover:text-primary-600 transition-all duration-300">
+                    <i class="ri-question-line mr-2"></i>¿Cómo funciona?
+                </button>
+                <button class="glass-effect text-white px-6 py-3 rounded-full hover:bg-white hover:text-primary-600 transition-all duration-300">
+                    <i class="ri-fire-line mr-2"></i>Ofertas del día
+                </button>
+                <button class="glass-effect text-white px-6 py-3 rounded-full hover:bg-white hover:text-primary-600 transition-all duration-300">
+                    <i class="ri-star-line mr-2"></i>Más populares
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Loading Spinner -->
+    <div id="loading-spinner" class="hidden py-16 text-center">
+        <div class="inline-block animate-spin rounded-full h-16 w-16 border-4 border-primary-500 border-t-transparent"></div>
+        <p class="mt-4 text-gray-600 text-lg font-medium">Buscando las mejores ofertas...</p>
+        <p class="text-gray-500 text-sm">Comparando precios en múltiples tiendas</p>
+    </div>
+
+    <!-- Results Section -->
+    <section class="py-16">
+        <div class="container mx-auto px-4">
+            <!-- Results Title -->
+            <h3 id="results-title" class="text-3xl font-bold text-center mb-12 text-gray-800 hidden">Productos Destacados</h3>
+            
+            <!-- Search Filters (will be added dynamically) -->
+            <div id="search-filters" class="mb-8"></div>
+            
+            <!-- Products Container -->
+            <div id="products-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8"></div>
+            
+            <!-- No Results -->
+            <div id="no-results" class="hidden text-center py-16">
+                <div class="w-24 h-24 bg-gray-100 rounded-full flex items-center justify-center mx-auto mb-6">
+                    <i class="ri-search-line text-4xl text-gray-400"></i>
+                </div>
+                <h3 class="text-2xl font-bold text-gray-800 mb-4">No se encontraron productos</h3>
+                <p class="text-gray-600 mb-6">Intenta con otros términos de búsqueda o explora nuestras categorías</p>
+                <button class="bg-primary-500 hover:bg-primary-600 text-white px-6 py-3 rounded-lg transition-colors">
+                    Explorar categorías
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Order Modal -->
+    <div class="fixed inset-0 bg-black bg-opacity-50 hidden items-center justify-center z-50" id="orderModal">
+        <div class="bg-white rounded-2xl shadow-2xl max-w-4xl w-full mx-4 max-h-[95vh] overflow-y-auto">
+            <!-- Modal Header -->
+            <div class="p-6 border-b border-gray-200 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-t-2xl">
+                <div class="flex items-center justify-between">
+                    <h3 class="text-2xl font-bold flex items-center">
+                        <i class="ri-shopping-cart-line mr-3 text-3xl"></i>
+                        Finalizar Compra
+                    </h3>
+                    <button class="text-white hover:text-gray-200 transition-colors" onclick="closeOrderModal()">
+                        <i class="ri-close-line text-2xl"></i>
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Modal Content -->
+            <div class="p-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                    <!-- Product Details -->
+                    <div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-4">Detalles del producto</h4>
+                        <div id="modal-product-details" class="bg-gray-50 rounded-xl p-4 mb-6">
+                            <!-- Dynamic content -->
+                        </div>
+                        
+                        <!-- Customer Information Form -->
+                        <h4 class="text-xl font-bold text-gray-800 mb-4">Información de contacto</h4>
+                        <form id="order-form" class="space-y-4">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Nombre completo *</label>
+                                    <input type="text" id="name" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Email *</label>
+                                    <input type="email" id="email" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                                </div>
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Teléfono *</label>
+                                <input type="tel" id="phone" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                            
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-2">Dirección *</label>
+                                <input type="text" id="address" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                            </div>
+                            
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Ciudad *</label>
+                                    <input type="text" id="city" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-2">Código postal *</label>
+                                    <input type="text" id="postal-code" required class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-primary-500 focus:border-transparent">
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <!-- Order Summary -->
+                    <div>
+                        <h4 class="text-xl font-bold text-gray-800 mb-4">Resumen del pedido</h4>
+                        <div class="bg-gray-50 rounded-xl p-6 space-y-4">
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Producto:</span>
+                                <span id="summary-product-name" class="font-medium">-</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Precio:</span>
+                                <span id="summary-product-price" class="font-bold text-lg text-green-600">-</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Tienda:</span>
+                                <span id="summary-product-source" class="font-medium">-</span>
+                            </div>
+                            <div class="flex justify-between items-center">
+                                <span class="text-gray-600">Envío:</span>
+                                <span class="font-medium text-green-600">Gratis</span>
+                            </div>
+                            <hr class="border-gray-300">
+                            <div class="flex justify-between items-center text-xl font-bold">
+                                <span>Total:</span>
+                                <span id="summary-total" class="text-green-600">-</span>
+                            </div>
+                        </div>
+                        
+                        <!-- Payment Info -->
+                        <div class="mt-6 bg-blue-50 border border-blue-200 rounded-lg p-4">
+                            <div class="flex items-start space-x-3">
+                                <i class="ri-information-line text-blue-500 text-xl mt-0.5"></i>
+                                <div>
+                                    <h5 class="font-semibold text-blue-800 mb-2">Información de pago</h5>
+                                    <p class="text-blue-700 text-sm">Serás redirigido a la tienda oficial para completar tu compra de forma segura. Ofertix no procesa pagos directamente.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Complete Order Button -->
+                        <button id="complete-order-btn" class="w-full mt-6 bg-gradient-to-r from-green-500 to-green-600 hover:from-green-600 hover:to-green-700 text-white py-4 rounded-xl font-bold text-lg transition-all duration-300 transform hover:scale-105 shadow-lg">
+                            <i class="ri-secure-payment-line mr-2"></i>Completar Pedido
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-3 mb-6">
+                        <div class="w-10 h-10 bg-gradient-to-r from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center">
+                            <i class="ri-shopping-bag-line text-white text-xl"></i>
+                        </div>
+                        <h3 class="text-2xl font-bold">Ofertix</h3>
+                    </div>
+                    <p class="text-gray-300 mb-4">Tu comparador de precios favorito. Encuentra las mejores ofertas en productos de tecnología y más.</p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="ri-facebook-line text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="ri-twitter-line text-xl"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition-colors">
+                            <i class="ri-instagram-line text-xl"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Enlaces rápidos</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Inicio</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Categorías</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Ofertas</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Ayuda</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Categories -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Categorías</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Electrónicos</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Computadoras</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Gaming</a></li>
+                        <li><a href="#" class="text-gray-300 hover:text-white transition-colors">Hogar</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-semibold mb-6">Contacto</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-center space-x-3">
+                            <i class="ri-mail-line text-primary-400"></i>
+                            <span class="text-gray-300">info@ofertix.com</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="ri-phone-line text-primary-400"></i>
+                            <span class="text-gray-300">+34 900 123 456</span>
+                        </li>
+                        <li class="flex items-center space-x-3">
+                            <i class="ri-map-pin-line text-primary-400"></i>
+                            <span class="text-gray-300">Madrid, España</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <hr class="border-gray-700 my-8">
+            
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-400 text-sm">© 2024 Ofertix. Todos los derechos reservados.</p>
+                <div class="flex space-x-6 mt-4 md:mt-0">
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Política de Privacidad</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Términos de Uso</a>
+                    <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
