@@ -1,4 +1,4 @@
-# Dependencias para Ofertix Backend - VERSIÓN REAL
+# Dependencias para Ofertix Backend - VERSIÓN CORREGIDA
 Flask==2.3.3
 requests==2.31.0
 python-dotenv==1.0.0
@@ -6,7 +6,7 @@ python-dotenv==1.0.0
 # Base de datos
 SQLAlchemy==2.0.21
 Flask-SQLAlchemy==3.0.5
-psycopg2-binary==2.9.7  # Para PostgreSQL
+psycopg2-binary==2.9.7
 
 # Autenticación y seguridad
 Flask-Login==0.6.3
@@ -24,6 +24,16 @@ webdriver-manager==4.0.0
 beautifulsoup4==4.12.2
 
 # Utilidades
+celery==5.3.4
+redis==5.0.0
+gunicorn==21.2.0
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
 celery==5.3.2  # Para tareas asíncronas
 redis==5.0.0   # Para cache y cola de tareas
 gunicorn==21.2.0  # Para producción
@@ -32,3 +42,1648 @@ gunicorn==21.2.0  # Para producción
 flask-cors==4.0.0
 # selenium==4.11.2
 # webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==21.2.0  # Para producción
+
+# Monitoreo
+flask-cors==4.0.0
+# selenium==4.11.2
+# webdriver-manager==4.0.0
+# beautifulsoup4==4.12.2
+# Utilidades
+celery==5.3.2  # Para tareas asíncronas
+redis==5.0.0   # Para cache y cola de tareas
+gunicorn==
