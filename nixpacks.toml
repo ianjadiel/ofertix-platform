@@ -1,5 +1,21 @@
 [phases.install]
-cmds = ["pip install -r requirements_free.txt"]
+cmds = ["pip install -r requirements.txt"]
 
 [start]
 cmd = "python app_free.py"
+
+[variables]
+PORT = "8000"
+
+## 🔧 **SOLUCIÓN: ACTUALIZAR NIXPACKS.TOML**
+
+Necesitamos corregir la configuración:
+```toml
+[phases.install]
+cmds = ["pip install -r requirements.txt"]
+
+[start]
+cmd = "python app_free.py"
+
+[variables]
+PORT = "8000"
